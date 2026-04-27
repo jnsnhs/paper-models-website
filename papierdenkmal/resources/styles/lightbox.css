@@ -10,6 +10,7 @@ div.lightBoxModal {
   width: 100%; height: 100%;
   background: #121212cd;
   overflow: auto;
+  z-index: 20;
 }
 
 div.lightBoxImgContainer {
@@ -23,14 +24,14 @@ div.lightBoxImgContainer {
 }
 
 img.lightBoxImage {
-  width: 100%; height: 100%; 
+  width: 100%; height: 85%; 
   object-fit: contain;
   display: none;
 }
 
 div.lightBoxCloseBtn {
-  top: 1rem;
-  right: 1.5rem;
+  top: 0.5rem;
+  right: 2rem;
   position: absolute;
   color: white;
   font-weight: bold;
