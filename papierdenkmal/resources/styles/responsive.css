@@ -1,0 +1,261 @@
+/* Extra Small */
+
+@media screen and (max-width: 575px) {
+  body {
+    font-size: 12pt;
+    padding: 1em;
+  }
+  .content {
+    max-width: 30em;
+  }
+  .model_item,
+  .gallery,
+  paper.container {
+    flex-direction: column;
+    margin-bottom: 1.5em;
+  }
+  .gallery_item .thumbnail {
+    height: 22em;
+  }
+  h3 {
+    margin-top: 1em;
+  }
+  .paper.container {
+    margin-bottom: 2em;
+  }
+}
+
+/* Small */
+
+@media screen and (min-width: 576px) {
+  body {
+    font-size: 13pt;
+    padding: 2.2em 2em;
+    background-size: 8.5em;
+  }
+  .header {
+    margin-bottom: 2em;
+    margin-top: 0em;
+  }
+  .title,
+  .hamburger {
+    font-size: 200%;
+  }
+  .hamburger_label {
+    display: initial;
+  }
+  .content {
+    max-width: 36em;
+  }
+  .model_item,
+  .gallery,
+  .paper.container {
+    flex-direction: column;
+    margin-bottom: 1.5em;
+    padding: 7vw;
+  }
+  .model_item h3 {
+    margin-top: 1em;
+  }
+  .paper.container {
+    margin-bottom: 2.5em;
+  }
+  .gallery_item .thumbnail {
+    height: 23em;
+  }
+  .gallery p.caption {
+    margin-top: 1em;
+  }
+  .model_title {
+    font-size: 250%;
+  }
+  .footer {
+    margin-bottom: 0em;
+  }
+  .legal,
+  .social {
+    column-gap: 1em;
+    font-size: 150%;
+  }
+}
+
+/* Medium */
+
+@media screen and (min-width: 768px) {
+  body {
+    padding: 2em 2em;
+    background-size: 10em 10em;
+  }
+  .content {
+    max-width: 46em;
+  }
+  .header {
+    margin-top: 0.7em;
+  }
+  .title {
+    font-size: 225%;
+  }
+  .menu {
+    display: flex;
+  }
+  .menu li {
+    font-size: 225%;
+  }
+  .hamburger {
+    display: none;
+  }
+  div.model_description.full {
+    margin-top: 2em;
+  }
+  .model_item,
+  .gallery,
+  .paper.container {
+    flex-direction: row;
+    padding: 5vw;
+    margin-bottom: 3vw;
+  }
+  .gallery_item .thumbnail {
+    height: 15em;
+  }
+  .model_item h3 {
+    margin-top: 0em;
+  }
+  .model_item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .model_thumbnail {
+    flex-basis: 50%;
+  }
+  .model_item:nth-child(odd) .model_thumbnail {
+    margin-right: 2em;
+  }
+  .model_item:nth-child(even) .model_thumbnail {
+    margin-left: 2em;
+  }
+  .model_title {
+    font-size: 2.2em;
+  }
+  .model_info {
+    flex-basis: 10%;
+    flex-grow: 1;
+  }
+  .paper.container {
+    margin-bottom: 2.5em;
+  }
+  .model.description {
+    display: initial;
+  }
+  .paper.container div.preview {
+    width: 46.5%;
+    float: right;
+    margin: 2em 0em 2em 2em;
+    z-index: 10;
+  }
+  div.preview img {
+    width: 100%;
+    display: block;
+  }
+  .textblock .textimage.float img {
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(200, 200, 200);
+  }
+  .textblock .textimage.float {
+    width: 46.5%;
+    float: right;
+    margin: 0em 0em 2em 2em;
+    z-index: 10;
+  }
+  .gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .gallery_item {
+    flex-basis: 40%;
+    flex-grow: 1;
+  }
+  .gallery_item:nth-child(odd) {
+    margin-right: 1.5em;
+  }
+  .gallery_item:nth-child(1),
+  .gallery_item:nth-child(2) {
+    margin-top: 0em;
+  }
+  .footer {
+    margin-top: 3em;
+    margin-bottom: 1em;
+  }
+  .social .label {
+    display: inline;
+  }
+  .social svg {
+    height: 0.75em;
+  }
+}
+
+/* Large */
+
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 14pt;
+    padding: 2em;
+    background-size: 10.3em;
+  }
+  .title {
+    font-size: 250%;
+  }
+  .menu li {
+    font-size: 250%;
+  }
+  .model_item,
+  .gallery,
+  .paper.container {
+    flex-direction: row;
+    padding: 3em;
+    margin-bottom: 2em;
+  }
+  .gallery_item .thumbnail {
+    height: 16em;
+  }
+  .gallery p.caption {
+    margin-top: 1em;
+  }
+  .model_item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .model_thumbnail {
+    flex-basis: 50%;
+  }
+  .model_info {
+    flex-basis: 10%;
+    flex-grow: 1;
+  }
+}
+
+/* Extra Large */
+
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 14pt;
+  }
+  .content {
+    max-width: 50em;
+  }
+  .model_item,
+  .gallery,
+  .paper.container {
+    flex-direction: row;
+    padding: 3em;
+    margin-bottom: 2em;
+  }
+  .model_item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .model_thumbnail {
+    flex-basis: 50%;
+  }
+  .model_info {
+    flex-basis: 10%;
+    flex-grow: 1;
+  }
+}
