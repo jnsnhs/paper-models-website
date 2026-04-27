@@ -1,0 +1,83 @@
+img.lightbox-thumbnail {
+  cursor: zoom-in;
+}
+
+div.lightBoxModal {
+  position: fixed;
+  display: none;
+  left: 0px;
+  top: 0px;
+  width: 100%; height: 100%;
+  background: #121212cd;
+  overflow: auto;
+}
+
+div.lightBoxImgContainer {
+  position: absolute;
+  height: calc(100% - 2em);
+  width: 100%;
+  width: calc(100% - 2em);
+  padding: 1em 1em;
+  display: flex;
+  align-items: center;
+}
+
+img.lightBoxImage {
+  width: 100%; height: 100%; 
+  object-fit: contain;
+  display: none;
+}
+
+div.lightBoxCloseBtn {
+  top: 1rem;
+  right: 1.5rem;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  cursor: pointer;
+  opacity: 0.66;
+  transition: all 0.2s;
+  user-select: none;
+}
+
+div.lightBoxCloseBtn:hover {
+  opacity: 1.0;
+  transform: scale(1.2);
+}
+div.lightBoxCloseBtn:active {
+  transform: scale(0.9);
+}
+
+div.lightBoxControls {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ height: 100%; width: 100%;
+}
+
+div.lightBoxControls a {
+  color: white;
+  background: #121212ef;
+  opacity: 0.5;
+  z-index: 99;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  font-size: 1em;
+  border-radius: 0.5em;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.1s;
+  user-select: none;
+}
+
+div.lightBoxControls a:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+
+div.lightBoxControls a:active {
+  transform: scale(0.9);
+}
