@@ -421,11 +421,11 @@ li.book::before {
 }
 
 ul.linklist li.link::before {
-  background-image: url("./resources/images/link.png");
+  background-image: url("../images/link.png");
 }
 
 ul.linklist li.book::before {
-  background-image: url("./resources/images/book_alt.png");
+  background-image: url("../images/book_alt.png");
 }
 
 ul.linklist li a {
