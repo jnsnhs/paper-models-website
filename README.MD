@@ -18,4 +18,4 @@ Weil die Entwicklung eines Papiermodells häufig sehr zeitaufwendig ist, war von
 
 ![oifewg](./resources/images/screenshot.jpg)
 
-[^1]: Dies ist eine sehr verkürzte Darstellung der Arbeitsschritte. Meist sind mehrere Interationen und damit verbundene Testbauten nötig, ehe ein Modell entstanden ist, das problemlos und zuverlässig baubar ist. Auch das Anfertigen einer nachvollziehbaren Anleitung ist mit nicht geringem Aufwand verbunden. Man muss schon ein großer Bastel-Nerd sein, um daran Spaß zu finden... :nerd_face:
+[^1]: Dies ist eine sehr verkürzte Darstellung der Arbeitsschritte. In der Regel sind mehrere Iterationen und damit verbundene Testbauten nötig, ehe ein Modell entstanden ist, das problemlos und zuverlässig baubar ist. Auch das Anfertigen einer nachvollziehbaren Anleitung ist mit nicht geringem Aufwand verbunden. Man muss schon ein großer Bastel-Nerd sein, um daran Spaß zu finden... :nerd_face:
