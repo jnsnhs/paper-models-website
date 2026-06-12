@@ -2,6 +2,8 @@
 
 Auf der Website [www.papierdenkmal.de](https://www.papierdenkmal.de) stelle ich selbstkonstruierte Architekturmodelle als Bastelbögen zum kostenfreien Download zur Verfügung. 
 
+![Screenshot of www.papierdenkmal.de](./resources/images/screenshot-small-16-9.jpg)
+
 ### Hintergrund
 
 Entstanden sind die Modelle in den Jahren 2021 bis 2024, ursprünglich inspiriert durch den Abriss eines unscheinbaren Kioskgebäudes in meiner Heimatstadt. Die emotionalen Reaktionen der Bevölkerung auf den Verlust des liebgewonnenen Verkaufspavillons brachten mich auf die Idee, das Gebäude als Modell zu „konservieren“.
@@ -15,7 +17,5 @@ Die Anfertigung eines Papiermodells erfolgt sehr kleinschrittig. Sie beginnt in 
 Sobald mir für die Umsetzung einer Idee ausreichend Informationen vorlagen, erfolgte in einem zweiten Schritt die Konstruktion mit Hilfe von *SketchUp*. Auch die Zerlegung in Einzelteile erfolgte händisch im CAD-Programm. Über den Export als EPS-Datei gelangten die Blanko-Bauteile anschließend in die Grafik-Tools *Affinity Designer* und *Affinity Photo*, mit denen ich die Texturen ausgearbeitet und die finalen Bögen gestaltet habe.[^1]
 
 Weil die Entwicklung eines Papiermodells häufig sehr zeitaufwendig ist, war von Anfang an klar, dass der Umfang der Website nur langsam wachsen wird und Aktualisierungen nur selten erfolgen werden. Daher wurde die Seite von Beginn an bewusst als statische Internetpräsenz ohne Datenbank konzipiert. Dennoch lagen die Dateien über Jahre hinweg bei einem dedizierten Hoster, ehe sie im Frühjahr 2026 zu Github umgezogen sind.
-
-![oifewg](./resources/images/screenshot.jpg)
 
 [^1]: Dies ist eine sehr verkürzte Darstellung der Arbeitsschritte. In der Regel sind mehrere Iterationen und damit verbundene Testbauten nötig, ehe ein Modell entstanden ist, das problemlos und zuverlässig baubar ist. Auch das Anfertigen einer nachvollziehbaren Anleitung ist mit nicht geringem Aufwand verbunden. Man muss schon ein großer Bastel-Nerd sein, um daran Spaß zu finden... :nerd_face:
