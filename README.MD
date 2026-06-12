@@ -2,7 +2,7 @@
 
 Auf der Website [www.papierdenkmal.de](https://www.papierdenkmal.de) stelle ich selbstkonstruierte Architekturmodelle als Bastelbögen zum kostenfreien Download zur Verfügung. 
 
-![Screenshot of www.papierdenkmal.de](./resources/images/screenshot-small-16-9.png)
+![Screenshot](./resources/images/screenshot-small-16-9.png)
 
 ### Hintergrund
 
